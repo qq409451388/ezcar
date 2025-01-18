@@ -13,16 +13,13 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>ezcar</name>
     <description>ezcar</description>
-    <url/>
-    <packaging>pom</packaging> <!-- 添加或修改这一行 -->
+    <packaging>pom</packaging>
     <properties>
         <java.version>21</java.version>
     </properties>
-    <dependencies>
-
-    </dependencies>
-
     <modules>
+        <module>ezcar-common</module>
+        <module>ezcar-customer</module>
     </modules>
     <build>
         <plugins>
@@ -32,5 +29,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
