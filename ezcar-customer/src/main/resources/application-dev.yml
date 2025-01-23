@@ -1,0 +1,13 @@
+mysql:
+  master:
+    url: jdbc:mysql://127.0.0.1:3306/ezcar?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  slave1:
+    url: jdbc:mysql://127.0.0.1:3306/ezcar?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  slave2:
+    url: jdbc:mysql://127.0.0.1:3306/ezcar?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver

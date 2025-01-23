@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: car-customer
+server:
+  port: 8080
+  servlet:
+    context-path: /car
+mybatis-plus:
+  type-aliases-package: cn.poethan.ezcar.mapper
+  mapper-locations: classpath:mapper/*/*Mapper.xml #classpath*:/mapper/**/*.xml

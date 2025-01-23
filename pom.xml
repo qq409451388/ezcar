@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.4.1</version>
+        <version>3.1.12</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>cn.poethan.ezcar</groupId>
@@ -21,12 +21,4 @@
         <module>ezcar-common</module>
         <module>ezcar-customer</module>
     </modules>
-<!--    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>-->
 </project>
